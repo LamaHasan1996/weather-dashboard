@@ -104,9 +104,11 @@ export default function App() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-        <div className="lg:col-span-2">
+        <div className="min-h-[222px] lg:col-span-2">
           {loading ? (
-            <div className="card p-6 text-slate-600">Loading...</div>
+            <div className="min-h-[222px] card p-6 text-slate-600">
+              Loading...
+            </div>
           ) : (
             <CurrentWeather data={current} />
           )}
