@@ -1,9 +1,9 @@
 {
   "berlin": {
     "city": "Berlin",
-    "temp_c": 28.5,
-    "wind_kmh": 10.1,
-    "time_utc": "2025-09-20 14:28"
+    "temp_c": 27.6,
+    "wind_kmh": 8.3,
+    "time_utc": "2025-09-20 16:19"
   },
   "syria": {
     "city": "Syria",
@@ -31,9 +31,9 @@
   },
   "hamburg": {
     "city": "Hamburg",
-    "temp_c": 27.0,
-    "wind_kmh": 10.3,
-    "time_utc": "2025-09-20 13:48"
+    "temp_c": 25.2,
+    "wind_kmh": 12.6,
+    "time_utc": "2025-09-20 16:15"
   },
   "dresden": {
     "city": "Dresden",
