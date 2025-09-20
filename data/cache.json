@@ -1,0 +1,62 @@
+{
+  "berlin": {
+    "city": "Berlin",
+    "temp_c": 28.5,
+    "wind_kmh": 10.1,
+    "time_utc": "2025-09-20 14:28"
+  },
+  "syria": {
+    "city": "Syria",
+    "temp_c": 24.5,
+    "wind_kmh": 13.1,
+    "time_utc": "2025-09-20 13:51"
+  },
+  "damascus": {
+    "city": "damascus",
+    "temp_c": 25.5,
+    "wind_kmh": 2.3,
+    "time_utc": "2025-09-17 20:31"
+  },
+  "tartus": {
+    "city": "tartus",
+    "temp_c": 27.4,
+    "wind_kmh": 2.5,
+    "time_utc": "2025-09-17 20:31"
+  },
+  "lattakia": {
+    "city": "lattakia",
+    "temp_c": 25.8,
+    "wind_kmh": 5.5,
+    "time_utc": "2025-09-17 20:51"
+  },
+  "hamburg": {
+    "city": "Hamburg",
+    "temp_c": 27.0,
+    "wind_kmh": 10.3,
+    "time_utc": "2025-09-20 13:48"
+  },
+  "dresden": {
+    "city": "Dresden",
+    "temp_c": 30.0,
+    "wind_kmh": 4.7,
+    "time_utc": "2025-09-20 13:48"
+  },
+  "russia": {
+    "city": "russia",
+    "temp_c": 8.6,
+    "wind_kmh": 5.0,
+    "time_utc": "2025-09-20 13:52"
+  },
+  "moscow": {
+    "city": "moscow",
+    "temp_c": 16.0,
+    "wind_kmh": 9.1,
+    "time_utc": "2025-09-20 13:52"
+  },
+  "jordan": {
+    "city": "jordan",
+    "temp_c": 30.4,
+    "wind_kmh": 5.5,
+    "time_utc": "2025-09-20 13:52"
+  }
+}
