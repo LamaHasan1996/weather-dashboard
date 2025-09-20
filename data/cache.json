@@ -1,9 +1,9 @@
 {
   "berlin": {
     "city": "Berlin",
-    "temp_c": 27.6,
-    "wind_kmh": 8.3,
-    "time_utc": "2025-09-20 16:19"
+    "temp_c": 21.8,
+    "wind_kmh": 7.3,
+    "time_utc": "2025-09-20 21:32"
   },
   "syria": {
     "city": "Syria",
@@ -12,10 +12,10 @@
     "time_utc": "2025-09-20 13:51"
   },
   "damascus": {
-    "city": "damascus",
-    "temp_c": 25.5,
-    "wind_kmh": 2.3,
-    "time_utc": "2025-09-17 20:31"
+    "city": "Damascus",
+    "temp_c": 21.5,
+    "wind_kmh": 4.1,
+    "time_utc": "2025-09-20 21:13"
   },
   "tartus": {
     "city": "tartus",
@@ -31,15 +31,15 @@
   },
   "hamburg": {
     "city": "Hamburg",
-    "temp_c": 25.2,
-    "wind_kmh": 12.6,
-    "time_utc": "2025-09-20 16:15"
+    "temp_c": 20.1,
+    "wind_kmh": 4.7,
+    "time_utc": "2025-09-20 21:33"
   },
   "dresden": {
     "city": "Dresden",
-    "temp_c": 30.0,
-    "wind_kmh": 4.7,
-    "time_utc": "2025-09-20 13:48"
+    "temp_c": 20.5,
+    "wind_kmh": 4.9,
+    "time_utc": "2025-09-20 21:28"
   },
   "russia": {
     "city": "russia",
@@ -58,5 +58,17 @@
     "temp_c": 30.4,
     "wind_kmh": 5.5,
     "time_utc": "2025-09-20 13:52"
+  },
+  "berlen": {
+    "city": "Berlen",
+    "temp_c": 18.0,
+    "wind_kmh": 10.1,
+    "time_utc": "2025-09-20 21:24"
+  },
+  "potsdam": {
+    "city": "Potsdam",
+    "temp_c": 23.3,
+    "wind_kmh": 9.2,
+    "time_utc": "2025-09-20 21:33"
   }
 }

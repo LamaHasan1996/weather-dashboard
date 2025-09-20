@@ -20,7 +20,7 @@ def add_city():
     data = request.get_json() or {}
     name = (data.get("name") or "").strip()
     favs = cities.load()
-    if name and name not in favs:
+    if name and all(c.lower()!=name.lower() for c in favs):
         favs.append(name)
         try:
             cities.save(favs)
@@ -31,7 +31,7 @@ def add_city():
 @app.delete("/cities")
 def remove_city():
     name = (request.args.get("name") or "").strip()
-    favs = [c for c in cities.load() if c != name]
+    favs = [c for c in cities.load() if c.lower() != name.lower()]
     try:
         cities.save(favs)
     except StorageError as e:

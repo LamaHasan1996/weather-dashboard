@@ -29,7 +29,15 @@ export default function App() {
   async function loadCities() {
     const cs = await fetchCities();
     setCities(cs);
-    if (!city && cs?.length) selectCity(cs[0]);
+    const selectedStillExists =
+      city && cs.some((c) => c.toLowerCase() === city.toLowerCase());
+    if ((!city || !selectedStillExists) && cs?.length) {
+      await selectCity(cs[0]);
+    } else if (!cs?.length) {
+      setCity("");
+      setCurrent(null);
+      setDays([]);
+    }
   }
 
   async function selectCity(c) {
@@ -61,10 +69,15 @@ export default function App() {
   async function handleRemoveFavorite(name) {
     const cs = await removeCity(name);
     setCities(cs);
-    if (name === city) {
-      setCity("");
-      setCurrent(null);
-      setDays([]);
+
+    if (name && city && name.toLowerCase() === city.toLowerCase()) {
+      if (cs.length) {
+        await selectCity(cs[0]);
+      } else {
+        setCity("");
+        setCurrent(null);
+        setDays([]);
+      }
     }
   }
 

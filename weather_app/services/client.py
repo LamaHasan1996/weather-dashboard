@@ -42,6 +42,6 @@ class WeatherClient:
             cur = data.get("current_weather")
             if not cur:
                 raise NetworkError("No current_weather in response")
-            return Forecast.from_api(city=city, current=cur, time_utc=now_iso())
+            return Forecast.from_api(city=city.title(), current=cur, time_utc=now_iso())
         except Exception as exc:
             raise NetworkError(f"Forecast failed for {city}") from exc
